@@ -20,7 +20,7 @@ class Student
 
   def add_student_attributes(attributes_hash)
     attributes_hash.each do |k,v|
-      self{:k,v}
+      self.{:k,v}
     end
   end
 
