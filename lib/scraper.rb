@@ -31,7 +31,7 @@ class Scraper
     
       profiledeets = {}
       
-      profilepage.css("div.social-icon-container").each do |icon|
+      profilepage.css("div.social-icon-container a").each do |icon|
         if icon.attribute("href").value.include?("twitter")
           profiledeets[:twitter] = icon.attribute("href").value 
       elsif icon.attribute("href").value.include?("github")
