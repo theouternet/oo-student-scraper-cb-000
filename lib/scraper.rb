@@ -44,7 +44,7 @@ class Scraper
  
  
       profiledeets[:profile_quote] = profilepage.css("div.vitals-text-container div").text
-      profiledeets[:bio] = profilepage.css("div.description-holder").text
+      profiledeets[:bio] = profilepage.css("div.description-holder p").text
     profiledeets
     
   end
