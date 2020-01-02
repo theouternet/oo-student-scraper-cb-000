@@ -39,7 +39,7 @@ class Scraper
       elsif icon.attribute("href").value.include?("linkedin")
           profiledeets[:linkedin] = icon.attribute("href").value
       else 
-        profiledeets[:blog} = icon.attribute("href").value
+        profiledeets[:blog] = icon.attribute("href").value
     end
   end
  
