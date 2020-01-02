@@ -1,4 +1,3 @@
-require scraper.rb
 
 
 class Student
